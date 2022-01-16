@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gclothingpage.css">
+</head>
+<body style="background-color: #000000;">
+    <div style ="border-left: 2px solid white; min-height:2200px; position:absolute; left: 94.5%; top: 0"class="vl"></div>
+
+</body>
+<div class="WorksLink">
+    <a href="html/index.html" >Work</a>
+</div>
+
+<div class="AboutLink">
+    <a href="html/about.html" >About</a> 
+</div>
+
+<div class="ContactLink">
+    <a href="mailto:marieirene13@gmail.com">Contact</a>
+</div>
+
+<div class="container">
+    
+    <div class="container">
+        <div class="whiteBackground" style="background-color:lightslategray; height:2200px; width:115%; margin-left: 20px;"  ></div>
+        
+    <div class="Title" style= "font-family: ThinFont; color:whitesmoke; font-size: 60pt; margin-top:-2150px; margin-left: 30px; letter-spacing: -2px;"> 
+        CANVAS REFORMER
+    </div>
+
+<div class= "discription" style = "font-family: ThinFont; color: black; font-size: 18pt; margin-top:60px; margin-left: 35px; line-height: 10px; padding-bottom: 30px">
+    <p> This project was made in 2021 as a response to the stress of finals week on college students.  </p>
+    <p> An experiemental google chrome extension was created that removes all text, assignments, and </p>
+    <p> grades from one's Canvas page, thus removing all stressors from a college student's life.  </p>
+    <p> Although not very practical, this project gives a new meaning to "what you don't know cannot </p>
+    <p> hurt you," especially in a digital age where all information is instantatous and news can be  </p>
+    <p> known immediately, good or bad. </p>
+</div>
+
+<div class="Block" style= "background-color:#eadbc8; top: -900; margin-left: 10px; width: 91.5%; height:300px;position: absolute;"> 
+</div>
+
+<img class="pic1" src="Untitled_Artwork 198.jpg"style = "width: 780px; height: 270px;position: absolute;margin-left: 200px;margin-top:15px; border-radius:20px">
+
+</div>
+<img class="pic6" src="Screen Shot 2022-01-12 at 7.18.48 PM.png"style = "width: 900px; height: 300px;  margin-top: 380px;position: absolute;margin-left: 150px; border-radius: 20px">
+
+<div class="w3-content w3-display-container" style= "background-color: white;height:400px;width: 900px;margin-left: 150px; margin-top: 600px;position: absolute;">
+    <img class="mySlides3" src="Untitled_Artwork 200.jpg" style ="width:600px;height:370px;position:absolute;margin-left: 140px">
+    <img class="mySlides3" src="Untitled_Artwork 201.jpg" style ="width:600px;height:370px;position:absolute;margin-left: 140px">
+    <img class="mySlides3" src="Untitled_Artwork 202.jpg" style ="width:600px;height:370px;position:absolute;margin-left: 140px">
+    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left" style = "margin-left: 70px; margin-top: 180px;"onclick="plusDivs(-1)">&#10094; </div>
+      <div class="w3-right" style = "margin-left: 800px; margin-top: -20px;" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+    </div>
+  </div>
+
+
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+<div class="Block2" style= "background-color:#eadbc8; margin-top: 1230px; margin-left: 10px; width: 91.5%; height:360px;position: absolute;"> 
+</div>
+
+
+
+<img class="pic6" src="Untitled_Artwork 196.jpg"style = "width: 400px; height: 260px;  margin-top: 1250px;position: absolute;margin-left: 170px; border-radius:20px">
+<img class="pic7" src="Untitled_Artwork 197.jpg"style = "width: 400px; height: 260px;  margin-top: 1250px;position: absolute;margin-left: 610px; border-radius:20px">
+
+<div class= "discription" style = "font-family: ThinFont; color: black; font-size: 18pt; margin-top:1050px; margin-left: 140px; line-height: 10px;text-align: center;">
+    <p> To make the extension I used very simple CSS to remove all the text on the page. </p>
+    <p> The graphics were made to highlight and accompany the simplicity of the extension,</p>
+    <p> including the green canvas logo, which communicates the positivity behind it, as  </p>
+    <p> opposed to the brooding red of the orginal Canvas logo.   </p>
+</div>
+
+<p style= "color:white; font-family: ThinFont;margin-left: 380px; margin-top: 490px;font-size: 20pt;">Click the button below to view extension</p>
+
+<a href="https://chrome.google.com/webstore/detail/canvas-reformer/mfebfkkiigcdaaaeigpndjipgdgifeho"class="button-30" role= "button">CANVAS REFORMER</a>
